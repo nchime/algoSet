@@ -1,4 +1,4 @@
-package com.chime.test;
+package com.chime.algo;
 
 import com.chime.algo.ArrayStack;
 
