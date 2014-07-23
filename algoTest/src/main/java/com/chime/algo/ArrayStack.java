@@ -1,7 +1,7 @@
 package com.chime.algo;
 
 /**
- * 스택 클래스 
+ * Stack 자료관리 알고리즘  
  * http://hyeonstorage.tistory.com/262 참조 
  * @author chkwak
  *
