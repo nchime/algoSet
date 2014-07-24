@@ -6,7 +6,7 @@ public class FactorialTest {
 	
 	
 	
-	/// 서버 수정 작업 
+	/// 서버 수정 작업 .............................
 	public static void main(String[] args) {
 		
 		Factorial f1 = new Factorial(FNUM, 'N');
