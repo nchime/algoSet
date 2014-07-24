@@ -1,10 +1,8 @@
-package com.chime.test;
+package com.chime.algo;
 
 import java.util.ArrayList;
 
 import com.chime.algo.SotSu;
-
-
 
 /**
  * 지정된 값에 대한 솟수 구하기 
@@ -27,9 +25,6 @@ public class SotSuTest {
 		for (int i : resultData) {
 			System.out.print(" " + i);
 		}
-		
-		
-		
 
 	}
 
