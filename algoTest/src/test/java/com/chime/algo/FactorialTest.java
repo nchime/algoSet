@@ -2,6 +2,8 @@ package com.chime.algo;
 
 public class FactorialTest {
 
+	// 로컬에서 수정됨.. 
+	
 	
 	private static int FNUM = 10; 
 	
@@ -12,7 +14,6 @@ public class FactorialTest {
 		
 		System.out.println(FNUM + "의 Factorial 계산 결과는 " + f1.getfResultNum());
 		System.out.println(FNUM + "의 Factorial 계산 결과는 " + f2.getfResultNum());		
-
 	}
 
 }
