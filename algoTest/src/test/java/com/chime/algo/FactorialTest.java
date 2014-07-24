@@ -4,6 +4,9 @@ public class FactorialTest {
 
 	private static int FNUM = 10; 
 	
+	
+	
+	/// 서버 수정 작업 
 	public static void main(String[] args) {
 		
 		Factorial f1 = new Factorial(FNUM, 'N');
