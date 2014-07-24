@@ -2,7 +2,10 @@ package com.chime.algo;
 
 public class FactorialTest {
 
-	
+
+
+
+	// 서버에서 수정 작업.. 
 	private static int FNUM = 10; 
 	
 	public static void main(String[] args) {
