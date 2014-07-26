@@ -1,1 +1,7 @@
 /target/
+<<<<<<< HEAD
+=======
+/.settings/
+/.project
+/.classpath
+>>>>>>> branch 'master' of https://github.com/nchime/algoSet.git
