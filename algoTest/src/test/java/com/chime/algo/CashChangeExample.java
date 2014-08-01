@@ -38,6 +38,8 @@ public class CashChangeExample {
 					money = money % coinKind[i];
 				}
 
+				
+				
 			}
 			// System.out.println("money: >>>>>>>>>" + money);
 
