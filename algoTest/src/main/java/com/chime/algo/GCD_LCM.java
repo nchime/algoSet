@@ -29,6 +29,8 @@ public class GCD_LCM {
 
 		int a = i, b = j;
 
+		
+		// a= 24. , b = 12
 		while (a != b) {
 			if (a > b)
 				a = a - b;
