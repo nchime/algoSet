@@ -12,7 +12,7 @@ public class BubbleSort {
 	public BubbleSort(int[] input) {
 
 		this.sortNum = input.clone();
-		setSortNum(this.sortNum);
+		setSortNum();
 
 	}
 
@@ -20,18 +20,18 @@ public class BubbleSort {
 		return sortNum;
 	}
 
-	public void setSortNum(int[] sortNum) {
+	public void setSortNum() {
 
 		int temp = 0;
 
-		for (int i = 0; i < sortNum.length; i++) {
+		for (int i = 0; i < sortNum.length-1; i++) {
 
-			for (int j = i; j < sortNum.length; j++) {
+			for (int j = 0; j < sortNum.length-1-i; j++) {
 
-				if (sortNum[i] > sortNum[j]) {
-					temp = sortNum[i];
-					sortNum[i] = sortNum[j];
-					sortNum[j] = temp;
+				if (sortNum[j] > sortNum[j+1]) {
+					temp = sortNum[j];
+					sortNum[j] = sortNum[j+1];
+					sortNum[j+1] = temp;
 				}
 			}
 		}

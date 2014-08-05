@@ -28,10 +28,8 @@ public class SelectionSort {
 		
 		int temp = 0;
 
-		for (int i = 0; i < sortNum.length; i++) {
-
+		for (int i = 0; i < sortNum.length-1; i++) {
 			for (int j = i + 1; j < sortNum.length; j++) {
-
 				if (sortNum[i] > sortNum[j]) {
 					temp = sortNum[i];
 					sortNum[i] = sortNum[j];
