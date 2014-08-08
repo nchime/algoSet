@@ -6,6 +6,7 @@ import java.util.Collections;
 /**
  * 진법 변환 알고리즘
  * http://cafe.naver.com/jobstartgogo/24440 참고..
+ * http://dumbung.com/main/bbs/board.php?bo_table=JAVA_TIP&wr_id=18
  * 
  * @author chkwak 2014. 8. 8. 오후 1:12:27
  */
